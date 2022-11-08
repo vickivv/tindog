@@ -1,0 +1,183 @@
+body {
+  font-family: 'Montserrat';
+}
+
+button {
+  margin: 50px 20px 20px 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding: 3% 15% 8% 15%;
+}
+
+#features {
+  padding: 7% 20%;
+  background-color: white;
+  position: relative;
+}
+
+i {
+  padding: 0 10px 0 0;
+}
+
+.i-features {
+  padding: 20px;
+  text-align: center;
+  color: #ef8172;
+}
+
+.i-features:hover {
+  color: #ff4c58
+}
+
+.features {
+  text-align: center;
+  padding-bottom: 7%;
+}
+
+.iphone {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 25%;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  margin: auto;
+  width: 80%;
+  color: #8f8f8f;
+}
+
+.nav-bar {
+  padding: 0;
+}
+
+.nav-link {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.3rem;
+  margin-left: 50px;
+}
+
+#tindog {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.title-row {
+  padding: 80px 20px 0 20px;
+  margin-bottom: 0;
+}
+
+
+/* testimonial section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+    padding: 5% 20%;
+}
+
+/* press */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 10%;
+  margin: 20px;
+}
+
+
+/* pricing section */
+#pricing {
+  padding: 5% 20%;
+  text-align: center;
+}
+
+.card-col {
+  margin-top: 80px;
+}
+
+.price-button {
+  margin:50px auto 5px auto;
+}
+
+/* cta section */
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+  padding: 5% 20%;
+}
+
+.cta-h3 {
+  font-size: 3.5rem;
+}
+
+
+/* footer section */
+#footer {
+  text-align: center;
+  padding: 5% 20%;
+}
+
+.footer-p {
+  padding-top: 20px;
+}
+
+
+@media (max-width: 1080px) {
+  .iphone {
+    transform: rotate(0);
+    position: static;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .title-row {
+    text-align: center;
+  }
+  button {
+    margin-bottom: 15%;
+    text-align: center;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
